@@ -18,24 +18,25 @@
  </head>
 
  <body class="font- [Nobile] bg-indigo-900 text-xl leading-7 margin-auto text-center"></body>
-  <header class="bg-red-300">
-    <nav class="flex justify-between items-center">
+  <header class="md: static bg-red-300">
+    <nav class="flex justify-between items-center w-[95%]">
       <div>
         <h1 class="static font-[Corben] w-48 h-24 text-3xl">Click, Click</h1>
           </div>
             <div class="">
-              <ul class="md:flex items-center">
+              <ul class="md:flex items-center gap-x-8">
                 <li>
-                  <a href="#"><button class="only: underline hover:text-white">Home</button></a>
+                                            <!--only child selectors were used for underlining all the nav items-->
+                  <a class="only: underline hover:text-white" href="#">Home</a>
                 </li>
                 <li>
-                  <a href="#"><button class="only: underline hover:text-white">Languages</button></a>
+                  <a class="only: underline hover:text-white" href="#">Languages</a>
                 </li>
                 <li>
-                  <a href="#"><button class="only: underline hover:text-white">Hobbies</button></a>
+                  <a class="only: underline hover:text-white" href="#">Hobbies</a>
                 </li>
                 <li>
-                  <a href="#"><button class="only: underline hover:text-white">About</button></a>
+                  <a class="only: underline hover:text-white" href="#">About</a>
                 </li>
               </ul>
             </div>
@@ -43,7 +44,7 @@
         </header>
         <div></div>
       <h2 class="first:border-solid text-red-300 text-2xl">Photo Album</h2>
-              <div>
+              <div class="horizontal-align">
                 <img src="images/highschoolgraduation.jpg" alt="">
                 <img src="images/canmore.jpg" alt="">
                 <img src="images/trollfalls.jpg" alt="">
